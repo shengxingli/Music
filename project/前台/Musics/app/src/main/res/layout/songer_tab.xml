@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green_light_trans"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.app.FragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/actionbar_back"/>
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center_horizontal"/>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:id="@+id/search"
+            android:layout_marginLeft="360dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/actionbar_search"/>
+    </android.support.v4.app.FragmentTabHost>
+
+</LinearLayout>

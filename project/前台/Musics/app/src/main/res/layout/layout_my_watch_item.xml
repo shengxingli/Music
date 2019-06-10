@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+    <com.example.user.music.image.CircleImageView
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/avatar"/>
+
+    <TextView
+        android:id="@+id/attention_user_name"
+        android:layout_width="275dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="星星"
+        android:textSize="20dp" />
+    <ImageView
+        android:id="@+id/attention_go_to"
+        android:layout_marginLeft="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/arrow"
+        android:layout_gravity="center"/>
+</LinearLayout>

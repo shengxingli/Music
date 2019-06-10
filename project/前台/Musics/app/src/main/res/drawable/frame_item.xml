@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--oneshot属性的含义表示：是否只播放1次-->
+<animation-list android:oneshot="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--添加动画帧-->
+    <item android:duration="1000" android:drawable="@mipmap/p1" />
+    <item android:duration="1000" android:drawable="@mipmap/p3" />
+    <item android:duration="1000" android:drawable="@mipmap/p2" />
+</animation-list>
